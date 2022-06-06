@@ -1,1 +1,1 @@
-https://github.com/Freakyturtlee/rsschool-cv/cv
+https://github.com/Freakyturtlee/rsschool-cv/cvgit
