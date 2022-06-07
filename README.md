@@ -1,1 +1,1 @@
-https://Freakyturtlee.github.io/rsschool-cv/
+https://.github.io/rsschool-cv/
