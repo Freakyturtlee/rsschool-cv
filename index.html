@@ -5,54 +5,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/stylesforform.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>cv</title>
 </head>
 
 <body>
-    <article>
-        <h1>Форма ученика HTML</h1>
-        <form action="/" method="post" class="subform">
-            <p>
-                <label for="name"> Как вас зовут</label>
-                <input type="text" name="name" id="name">
-            </p>
-            <p>
-                <label for="email"> Введите вашу почту</label>
-                <input type="email" name="email" id="email" required>
-            </p>
-            <p>Есть опыт изучения:
-                <label>
-                    <input type="radio" name="skill" value="1">
-                    JavaScript
-                </label>
-                <label>
-                    <input type="radio" name="skill" value="3">
-                    HTML&CSS
-                </label>
-                <label>
-                    <input type="radio" name="skill" value="2">
-                    PHP
-                </label>
-            </p>
-            <p>
-                <label for="goal"> Какую цель преследую</label>
-                <select name="goal" id="goal">
-                        <option>Хочу сменить профессию </option>
-                        <option>Повысить скилл</option>
-                        <option> Как хобби</option>
-                        <option> Хочу быть фрилансером</option>
-                    </select>
-            </p>
-            <p>
-                <label for="comments">Ваши пожелания</label>
-                <textarea name="comments" id="comments" cols="40" rows="10" placeholder="Напишите ваши пожелания"></textarea>
-            </p>
-            <p class="test">
-                <input type="submit" name="" value="Отправить">
-            </p>
-        </form>
-    </article>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li> <a href="#contacts">  Contacts </a></li>
+                    <li>
+                        <a href="#summary">Summary</a> </li>
+                    <li> <a href="#skills"> Skills</a></li>
+                    <li> <a href="#code"> Code</a></li>
+                    <li> <a href="#courses"> Courses</a></li>
+                    <li> <a href="#projects"> Projects</a></li>
+                    <li> <a href="#education"> Education </a></li>
+                    <li> <a href="#languages"> languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container photo">
+            <div class="avatar">
+                <img src="icons/SAM_1639.ico" alt="" class="photo_img">
+            </div>
+            <div class="descr">
+                <h1 class="name">Aleksandr Klimchuk</h1>
+                <hr class="line">
+                <h2 class="subheader">Junior Frontend Developer</h2>
+                <div class="divider"></div>
+            </div>
+        </div>
+    </main>
+    <section class="section">
+        <div class="main_container">
+            <div id="contacts" class="item">
+                <h2>Contacts</h2>
+                <ul class="contacts_list list">
+                    <li>Brest,Belarus</li>
+                    <li>Email: <a href="aklimchyk117@gmail.com"> aklimchyk117@gmail.com </a> </li>
+                    <li> Github:
+                        <a href="https://github.com/Freakyturtlee">Freakyturtlee</a>
+                    </li>
+                    <li> Telegramm:
+                        <a href="https://t.me/no_name_and_no_face">@no_name_and_no_face"</a>
+                    </li>
+                    <li> Discord:
+                        <a href=# ">whatdoyouwantfromme#0869</a>
+                    </li>
+                </ul>
+            </div>
+            <div id=" summary " class="item ">
+                <h2>Summary</h2>
+                <p> 34 years old, I have been interested in development for a very long time but did not dare to start. I have a humanitarian education, but I have always gravitated towards the exact sciences and technical disciplines. Good inclinations for learning languages. I took English courses at the Intermidate level, then I abandoned it, I plan to resume my studies
+
+                Of my positive qualities, these are attentiveness, logical thinking, perseverance Passed courses in HTML and CSS</p></div>
+            <div id="skills " class="item ">
+                <h2>My skills</h2>
+                <ul class="skills_list list ">
+                    <li>Web development:<span>HTML5, CSS3,JS( in progress)</span></li>
+                    <li>Frameworks: <span> Bootstrap</span></li>
+                    <li>Version  control: <span> GIT, Github</span></li>
+                    <li>Graphics: <span>Figma, Avacode, Adobe Photoshop</span></li>
+                </ul>
+                
+            </div>
+            <div id="code " class="item ">
+                <h2>Code</h2>
+                function multiply(a, b){
+                    a * b
+                  }
+                  
+            </div>
+            <div id="courses " class="item ">
+                <h2>Courses</h2>
+                <ul class="courses list ">
+                    <li>Udemy: <span>Web development 2022 by Ivan Petrichenko</span>
+                         </li>
+                    <li> Stepik: <span> <a href=" https://stepik.org/cert/1544565 "> Web development for beginers HTML/CSS </a></span> </li>
+                    <li> Freecodecamp:  <span> Legacy Responsive Web Design (in progress)</span> </li>
+                    <li>Mimo_dev: <span> Web development ( in progress)</span> </li>
+                    <li> Sololearn: <span> HTML5, CSS3</span> </li>
+                    </ul>
+            </div>
+            <div id="projects " class="item ">
+                <h2>Projects</h2>
+                Educational projects at UDemy , Stepik and Freecodecamp
+            </div>
+            <div id="education " class="item ">
+                <h2>Education</h2>
+                
+                Brest State University "named after A. S. Pushkin "
+            </div>
+            <div id="languages " class="item ">
+                <h2>Languages</h2>
+                <ul class="list languages ">
+                    <li> Bellarussian: free</li>
+                    <li>Russian: free</li>
+                    <li>English: pre-intermidate </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        
+        <div class="container footer_logo ">
+            <div class="date "> 
+                <p class="date_1 "> 2022 <a href="https://github.com/Freakyturtlee "> Freakyturtlee </a> </p>
+            </div>
+            <div class="logo ">
+             <a href=" https://app.rs.school/ ">  <img src="img/logo-rsschool3.png " alt=" лого " class="rs_logo "> </a>
+            </div>
+
+
+        </div>
+    </footer>
 </body>
 
 </html>
